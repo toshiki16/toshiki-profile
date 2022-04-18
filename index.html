@@ -5,27 +5,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/index.css">
+    <script src="./index.js"></script>
     <title>Document</title>
 </head>
 
 <body>
-    <a>かねぼんのワールドへようこそ～随時更新していきます<a>
+    <div class="global-wrap">
+        <header>
+            <a>かねぼんのワールドへようこそ～随時更新していきます<a>
+        </header>
+        <div>
             <li>作ったものとか</li>
-            <a href="https://toshiki16.github.io/hooks-snake-game/">スネークゲーム</a>
-            <li>作成途中</li>
-            <a href="https://toshiki16.github.io/markdown-editor">PC用の需要があるかわからないメモ帳アプリ（記憶保存）</a>
-            <li>気になるやつ</li>
-            <a
-                href="https://camo.githubusercontent.com/7eba6ff826871a5f1b9fb48d5dc7472dbf6bdbcda80bfb975bdde5a0ff71fdf5/68747470733a2f2f6f746f726f2e6e65742f696d672f736c696d6567796d2f706978656c2e676966">
-                Python言語で機械学習したCPU同士のバトル.（他者製作）
+        </div>
+        <div class="app-wrap">
+            <h3>スネークゲーム</h3>
+            <a href="https://toshiki16.github.io/hooks-snake-game/">
+                <img src="./app-photo/snake.png" alt="snakegame" class="app-img"></a>
+        </div>
+        <li>作成途中</li>
+        <div class="app-wrap">
+            <h3>PC用の需要があるかわからないメモ帳アプリ（記憶保存）</h3>
+            <a href="https://toshiki16.github.io/markdown-editor">
+                <img src="./app-photo/markdown.png" alt="PC用の需要があるかわからないメモ帳アプリ（記憶保存）" class="app-img">
             </a>
+        </div>
+    </div>
+    <div class="global-wrap">
+        <li>気になるやつ</li>
+        <a
+            href="https://camo.githubusercontent.com/7eba6ff826871a5f1b9fb48d5dc7472dbf6bdbcda80bfb975bdde5a0ff71fdf5/68747470733a2f2f6f746f726f2e6e65742f696d672f736c696d6567796d2f706978656c2e676966"><img
+                src="" alt="Pythonなやつ">
+            Python言語で機械学習したCPU同士のバトル.（他者製作）
+        </a><br>
+    </div>
 
-            <!-- HTML
-            <p class="btn"><a onclick="sound()">クリック</a></p>
-            <audio id="sound" preload="auto">
-                <source src="sound.mp3" type="audio/mp3">
-                <source src="sound.wav" type="audio/wav">
-            </audio> -->
+    <div class="global-wrap">
+        <button onclick="TenmaButton()">てんま</button>
+    </div>
 
 </body>
 

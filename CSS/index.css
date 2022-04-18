@@ -1,0 +1,19 @@
+h3 {
+  height: 5%;
+  width: 500px;
+}
+
+.global-wrap {
+  height: 500px;
+  width: 500px;
+}
+
+.app-wrap {
+  height: 150px;
+  width: 150px;
+}
+
+.app-img {
+  height: 60%;
+  width: 60%;
+}
