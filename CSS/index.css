@@ -3,10 +3,16 @@
   width: 100%;
 }
 
+header {
+  font-size: large;
+}
+
 h3 {
   height: 5%;
-  width: 500px;
+  width: 100%;
 }
+
+
 
 .global-wrap {
   height: 50%;
@@ -24,6 +30,6 @@ h3 {
 }
 
 .app-img2 {
-  height: 130%;
-  width: 300%;
+  height: 80%;
+  width: 100%;
 }
