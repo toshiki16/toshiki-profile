@@ -1,19 +1,29 @@
+.default-wrap {
+  height: 100%;
+  width: 100%;
+}
+
 h3 {
   height: 5%;
   width: 500px;
 }
 
 .global-wrap {
-  height: 500px;
-  width: 500px;
+  height: 50%;
+  width: 50%;
 }
 
 .app-wrap {
-  height: 150px;
-  width: 150px;
+  height: 70%;
+  width: 30%;
 }
 
-.app-img {
-  height: 60%;
-  width: 60%;
+.app-img1 {
+  height: 80%;
+  width: 80%;
+}
+
+.app-img2 {
+  height: 130%;
+  width: 300%;
 }
