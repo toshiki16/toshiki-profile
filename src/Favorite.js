@@ -4,7 +4,7 @@ import LineImage from './app-photo/Line.png'
 
 const Favorite = () => {
   return (
-    <div favorite-wrap>
+    <div className="favorite-wrap">
       <br /><br />
       <h2><li>おすすめ！！</li></h2>
       <p>
@@ -15,7 +15,7 @@ const Favorite = () => {
         <img src={Patissier} alt="" />
       </a><br />
       <a href="https://liff.line.me/1645278921-kWRPP32q/?accountId=565klqkm">公式ライン<br />
-        <img src={LineImage} alt="" class="favorite-Line" />
+        <img src={LineImage} alt="" className="favorite-Line" />
       </a><br />
       <p>
         ※紹介許可はいただきました。

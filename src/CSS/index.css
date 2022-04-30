@@ -33,10 +33,6 @@ header {
   height: 150px;
   width: 300px; }
 
-.favorite-Line {
-  height: 100px;
-  width: 100px; }
-
 .slide {
   height: 500px;
   width: 500px; }
@@ -44,5 +40,14 @@ header {
 .button-wrap {
   height: 250px;
   width: 500px; }
+
+.favorite-wrap {
+  height: 700px;
+  width: 500px;
+  background-color: azure; }
+
+.favorite-Line {
+  height: 100px;
+  width: 100px; }
 
 /*# sourceMappingURL=index.css.map */

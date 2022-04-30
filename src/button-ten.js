@@ -2,7 +2,7 @@ import React from 'react'
 
 const Button_ten = () => {
   return (
-    <div class="button-wrap">
+    <div className="button-wrap">
       <br /><br />
       <input type="button" id="tenmaButton" value="BGM実験ボタン" /><br />
       <p>
