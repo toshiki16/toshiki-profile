@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/index.css">
+    <link rel="stylesheet" href="./slider-pro/dist/css/slider-pro.min.css" />
+    <script src="./index.js"></script>
+    <title>Profile</title>
+</head>
+
+<body>
+    <div class="default-wrap">
+        <header>
+            <a>かねぼんのワールドへようこそ～随時更新していきます！<a>
+        </header>
+        <div>
+            <li>
+                作ったものとか(画像をタップすると遊べます！)
+            </li>
+        </div>
+        <div class="app-wrap">
+            <a href="https://toshiki16.github.io/hooks-snake-game/">
+                <h3>スネークゲーム</h3>
+                <img src="./app-photo/snake.png" alt="snakegame" class="Snake-Game">
+            </a>
+        </div>
+        <div class="app-ing-wrap">
+            <a href="https://toshiki16.github.io/markdown-editor">
+                <h3>PC用の需要があるかわからないメモ帳アプリ（記憶保存）</h3>
+                <img src="./app-photo/markdown.png" alt="PC用の需要があるかわからないメモ帳アプリ（記憶保存）" class="Markdown-Editor">
+            </a>
+        </div>
+        <li>気になるやつ</li>
+        <div class="Mymind-wrap">
+            <a
+                href="https://camo.githubusercontent.com/7eba6ff826871a5f1b9fb48d5dc7472dbf6bdbcda80bfb975bdde5a0ff71fdf5/68747470733a2f2f6f746f726f2e6e65742f696d672f736c696d6567796d2f706978656c2e676966">
+                <h3>Python言語で機械学習したCPU同士のバトル.（他者製作）</h3>
+                <img src="./app-photo/Python-cpu.png" alt="" class="Python-cpu">
+            </a>
+        </div>
+
+
+    </div>
+
+    <div favorite-wrap>
+        <li>おすすめ！！</li>
+        <a>
+            宮代町の無印良品店内にて、毎週月曜日に展開されているpatissier perchoir店<br>
+            *東武動物公園駅より徒歩1分*
+        </a><br>
+        <a href="https://perchoir.shop-pro.jp/?force=pc">HP: patissier perchoir(パティスリーペルショワール)<br><img
+                src="./app-photo/patissier-perchoir.jpg" alt=""></a><br>
+        <a href="https://liff.line.me/1645278921-kWRPP32q/?accountId=565klqkm">公式ライン<br><img src="./app-photo/Line.png"
+                alt="" class="favorite-Line">
+        </a><br>
+        <a>※紹介許可はいただきました。</a>
+    </div>
+
+
+    <div class="button-wrap">
+        <br><br>
+        <input type="button" id="tenmaButton" value="BGM実験ボタン"><br>
+        <a>
+            使用させていただいているBGM：天空の反逆者 作曲者：MoGura様
+        </a><br>
+        <a href="https://www.youtube.com/channel/UCyasXLHMATuiSFSVw8REdVw" src=""
+            alt="">MoGura様のプラットフォームhttps://www.youtube.com/channel/UCyasXLHMATuiSFSVw8REdVw</a><br>
+    </div>
+
+
+
+    <div class="slide">
+
+        <script type="text/javascript" src="./slider-pro/libs/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="./slider-pro/dist/js/jquery.sliderPro.min.js"></script>
+
+        <div id="example1" class="slider-pro">
+            <div class="sp-slides">
+                <div class="sp-slide">
+                    <img src="./app-photo/Line.png" />
+                </div>
+                <div class="sp-slide">
+                    <img src="./app-photo/patissier-perchoir.jpg" />
+                </div>
+                <div class="sp-slide">
+                    <img src="./app-photo/markdown.png" />
+                </div>
+            </div>
+        </div>
+
+
+        <script type="text/javascript">
+            $(document).ready(function ($) {
+                $('#example1').sliderPro();
+            });
+        </script>
+
+
+    </div>
+
+</body>
+
+
+
+</html>
