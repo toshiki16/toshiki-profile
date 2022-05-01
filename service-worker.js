@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/toshiki-profile/precache-manifest.c84f38f2c55bfeb0f7c4883adf19bdcc.js"
+  "/toshiki-profile/precache-manifest.4c9caf4ec345fa1fcc60ef91e0c4b2c4.js"
 );
 
 workbox.clientsClaim();
