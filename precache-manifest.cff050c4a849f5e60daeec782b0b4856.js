@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/toshiki-profile/static/media/キムチ.fe9522f0.m4a"
   },
   {
-    "revision": "e3af16cef9ad1a9f5069dc8d16265b09",
+    "revision": "99bf003ad7e187d5b93fba30e8f3d284",
     "url": "/toshiki-profile/index.html"
   }
 ];
