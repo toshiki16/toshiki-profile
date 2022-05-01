@@ -1,13 +1,13 @@
 {
   "main.css": "/toshiki-profile/static/css/main.3c794f2b.chunk.css",
-  "main.js": "/toshiki-profile/static/js/main.52179b37.chunk.js",
-  "main.js.map": "/toshiki-profile/static/js/main.52179b37.chunk.js.map",
+  "main.js": "/toshiki-profile/static/js/main.e34c4489.chunk.js",
+  "main.js.map": "/toshiki-profile/static/js/main.e34c4489.chunk.js.map",
   "runtime~main.js": "/toshiki-profile/static/js/runtime~main.c15d78b8.js",
   "runtime~main.js.map": "/toshiki-profile/static/js/runtime~main.c15d78b8.js.map",
-  "static/js/2.95bb9731.chunk.js": "/toshiki-profile/static/js/2.95bb9731.chunk.js",
-  "static/js/2.95bb9731.chunk.js.map": "/toshiki-profile/static/js/2.95bb9731.chunk.js.map",
+  "static/js/2.d4622225.chunk.js": "/toshiki-profile/static/js/2.d4622225.chunk.js",
+  "static/js/2.d4622225.chunk.js.map": "/toshiki-profile/static/js/2.d4622225.chunk.js.map",
   "index.html": "/toshiki-profile/index.html",
-  "precache-manifest.75d9307708245f45da960f846b1af063.js": "/toshiki-profile/precache-manifest.75d9307708245f45da960f846b1af063.js",
+  "precache-manifest.37e11731e3e99c783a57abdbe9a0de29.js": "/toshiki-profile/precache-manifest.37e11731e3e99c783a57abdbe9a0de29.js",
   "service-worker.js": "/toshiki-profile/service-worker.js",
   "static/css/main.3c794f2b.chunk.css.map": "/toshiki-profile/static/css/main.3c794f2b.chunk.css.map",
   "static/media/Python-cpu.png": "/toshiki-profile/static/media/Python-cpu.ba7d461e.png",
@@ -15,6 +15,9 @@
   "static/media/patissier-perchoir.jpg": "/toshiki-profile/static/media/patissier-perchoir.de0d3e4d.jpg",
   "static/media/snake.png": "/toshiki-profile/static/media/snake.9ccbb90a.png",
   "static/media/tenma2.jpg": "/toshiki-profile/static/media/tenma2.3521709c.jpg",
+  "static/media/toshi1.jpg": "/toshiki-profile/static/media/toshi1.3c11d8a4.jpg",
+  "static/media/toshi2.jpg": "/toshiki-profile/static/media/toshi2.5ffaa6a5.jpg",
+  "static/media/toshi3.jpg": "/toshiki-profile/static/media/toshi3.7d97d91b.jpg",
   "static/media/キムチ.m4a": "/toshiki-profile/static/media/キムチ.fe9522f0.m4a",
   "static/media/天空の反逆者.mp3": "/toshiki-profile/static/media/天空の反逆者.18baf09a.mp3"
 }
