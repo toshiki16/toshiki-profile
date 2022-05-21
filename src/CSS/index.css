@@ -1,53 +1,240 @@
+@charset "UTF-8";
 h3 {
   height: 5%;
   width: 100%; }
 
-.default-wrap {
-  height: 100%;
-  width: 100%; }
+.daimei {
+  text-align: left; }
 
 header {
-  font-size: large; }
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 0px;
+  color: black; }
+
+.header-logo {
+  padding: 10px 0;
+  font-weight: bold;
+  font-size: 15px; }
+
+.header-nav ul {
+  display: flex;
+  padding: 0px 0; }
+
+.header-nav ul li {
+  margin-left: 30px;
+  font-size: 9px; }
+
+#first-v {
+  height: 700px;
+  background-image: URL("../public/toshikun.png");
+  background-size: cover;
+  color: brown;
+  position: relative; }
+
+.first-v-wrap {
+  padding: 285px 0 255px;
+  margin: 0 auto;
+  width: 250px;
+  text-align: center; }
+
+.first-v-title {
+  margin-bottom: 150px;
+  font-weight: bold;
+  font-size: 27px; }
+
+.first-v-title::after {
+  display: block;
+  content: "";
+  width: 100px;
+  border-top: 1px solid #fff;
+  margin: 20px auto 0; }
+
+.first-v-btn {
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(-90deg, #283C86, #06BEB6);
+  box-shadow: 0 5px #070707;
+  font-weight: bold;
+  font-size: 15px;
+  color: #fff; }
+
+.fa-door-open {
+  margin-right: 4px; }
 
 .app-wrap {
   height: 250px;
-  width: 250px; }
+  width: 100%;
+  background-color: #EEEEEE; }
+
+.appImage {
+  margin: auto; }
 
 .Snake-Game {
   height: 200px;
-  width: 150px; }
+  width: 150px;
+  margin: auto; }
 
 .app-ing-wrap {
   height: 250px;
-  width: 500px; }
+  width: 100%;
+  background-color: #EEFFFF; }
 
 .Markdown-Editor {
-  height: 100px;
-  width: 400px; }
+  height: 150px;
+  width: 400px;
+  margin: auto; }
 
 .Mymind-wrap {
   height: 250px;
-  width: 500px; }
+  width: 100%;
+  background-color: #FFC7AF; }
 
 .Python-cpu {
   height: 150px;
   width: 300px; }
 
-.slide {
-  height: 500px;
-  width: 500px; }
+.slider-Image {
+  margin: auto; }
 
 .button-wrap {
   height: 250px;
-  width: 500px; }
+  width: 100%;
+  background-color: #F5F5F5; }
 
 .favorite-wrap {
   height: 700px;
-  width: 500px;
-  background-color: azure; }
+  width: 100%;
+  background-color: azure;
+  background-color: #FDF5E6; }
 
 .favorite-Line {
   height: 100px;
   width: 100px; }
+
+header {
+  padding: 16px;
+  background: #1f2c37; }
+
+.h-menu {
+  position: relative; }
+
+/*inputのcheckboxは非表示に*/
+.h-menuCheckbox {
+  display: none; }
+
+/*ハンバーガーメニュー*/
+.h-menu_icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  vertical-align: middle; }
+
+/*3本線*/
+.hamburger-icon,
+.hamburger-icon::before,
+.hamburger-icon::after {
+  content: '';
+  display: block;
+  position: absolute;
+  z-index: 100;
+  top: 0;
+  bottom: 0;
+  width: 32px;
+  height: 3px;
+  background: white;
+  cursor: pointer; }
+
+.hamburger-icon:before {
+  top: 10px; }
+
+.hamburger-icon:after {
+  top: 20px; }
+
+/*メニュー以外を暗くする*/
+#h-menu_black {
+  display: none;
+  position: fixed;
+  z-index: 98;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0;
+  transition: .7s ease-in-out; }
+
+/*中身*/
+#h-menu_content {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  width: 100%;
+  max-width: 320px;
+  height: 100vh;
+  padding: 53px 16px 16px;
+  background: #1f2c37;
+  overflow: auto;
+  transition: .3s ease-in-out;
+  -webkit-transform: translateX(-105%);
+  transform: translateX(-105%); }
+
+/*チェックボックスにチェックが入ったら表示*/
+input:checked ~ .h-menu_icon .hamburger-icon {
+  background: transparent; }
+
+input:checked ~ .h-menu_icon .hamburger-icon::before {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  top: 10px;
+  z-index: 999; }
+
+input:checked ~ .h-menu_icon .hamburger-icon::after {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  top: 10px;
+  z-index: 999; }
+
+input:checked ~ #h-menu_black {
+  display: block;
+  opacity: .8; }
+
+#h-menu_checkbox:checked ~ #h-menu_content {
+  -webkit-transform: translateX(0%);
+  transform: translateX(0%);
+  box-shadow: 6px 0 25px rgba(0, 0, 0, 0.15); }
+
+.h-menu_icon .hamburger-icon,
+.h-menu_icon .hamburger-icon::before,
+.h-menu_icon .hamburger-icon::after,
+#h-menu_black,
+#h-menu_content {
+  -webkit-transition: all .3s;
+  transition: all .3s; }
+
+#h-menu_content ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+#h-menu_content ul li {
+  border-bottom: solid 1px white; }
+
+#h-menu_content li a {
+  display: block;
+  color: white;
+  font-size: 14px;
+  padding: 24px;
+  text-decoration: none;
+  transition-duration: 0.2s; }
+
+#h-menu_content li a:hover {
+  background: #455b6d; }
 
 /*# sourceMappingURL=index.css.map */

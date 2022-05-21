@@ -1,3 +1,73 @@
 header {
-  font-size: large;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 0px;
+  color: black;
+  // background-color: #CCFFCC;
+  // position: absolute;
+  // z-index: 10;
+}
+
+.header-logo {
+  padding: 10px 0;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.header-nav ul {
+  display: flex;
+  padding: 0px 0;
+}
+
+.header-nav ul li {
+  margin-left: 30px;
+  font-size: 9px;
+}
+
+#first-v {
+  height: 700px;
+  background-image: URL("../public/toshikun.png");
+  background-size: cover;
+  color: brown;
+  position: relative;
+}
+
+.first-v-wrap {
+  padding: 285px 0 255px;
+  margin: 0 auto;
+  width: 250px;
+  text-align: center;
+}
+
+.first-v-title {
+  margin-bottom: 150px;
+  font-weight: bold;
+  font-size: 27px;
+}
+
+.first-v-title::after {
+  display: block;
+  content: "";
+  width: 100px;
+  border-top: 1px solid #fff;
+  margin: 20px auto 0;
+}
+
+.first-v-btn {
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(-90deg, #283C86, #06BEB6);
+  box-shadow: 0 5px #070707;
+  font-weight: bold;
+  font-size: 15px;
+  color: #fff;
+}
+
+.fa-door-open {
+  margin-right: 4px;
 }

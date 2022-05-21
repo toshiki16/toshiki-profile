@@ -1,9 +1,19 @@
 .app-wrap {
   height: 250px;
-  width: 250px;
+  width: 100%;
+  background-color: #EEEEEE;
+}
+
+// .applist-Image {
+//   justify-content: center;
+// }
+
+.appImage {
+  margin: auto;
 }
 
 .Snake-Game {
   height: 200px;
   width: 150px;
+  margin: auto;
 }

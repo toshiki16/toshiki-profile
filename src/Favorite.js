@@ -2,11 +2,13 @@ import React from 'react'
 import Patissier from './app-photo/patissier-perchoir.jpg'
 import LineImage from './app-photo/Line.png'
 
+
+
 const Favorite = () => {
   return (
     <div className="favorite-wrap">
       <br /><br />
-      <h2><li>おすすめ！！</li></h2>
+      <h2 className='daimei'><li>宣伝～！！</li></h2>
       <p>
         宮代町の無印良品店内にて、毎週月曜日に展開されているpatissier perchoir店<br />
         *東武動物公園駅より徒歩1分*
