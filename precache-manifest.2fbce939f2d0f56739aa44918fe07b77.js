@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "3284ac51d6103b77ca20",
-    "url": "/toshiki-profile/static/css/main.1b2021f8.chunk.css"
+    "revision": "0db0736511fa532b6fa1",
+    "url": "/toshiki-profile/static/css/main.b33c0c05.chunk.css"
   },
   {
-    "revision": "3284ac51d6103b77ca20",
-    "url": "/toshiki-profile/static/js/main.7a090381.chunk.js"
+    "revision": "0db0736511fa532b6fa1",
+    "url": "/toshiki-profile/static/js/main.fdc2470d.chunk.js"
   },
   {
     "revision": "028e852ca5dc8eb94aa3",
@@ -36,7 +36,11 @@ self.__precacheManifest = [
     "url": "/toshiki-profile/static/media/天空の反逆者.18baf09a.mp3"
   },
   {
-    "revision": "dcf9a872845ea19efdbe8e99c8a7b0cf",
+    "revision": "7f7462413b9b5559402350e139f6e38d",
+    "url": "/toshiki-profile/static/media/toshi.7f746241.png"
+  },
+  {
+    "revision": "0d53c97917830e72a082012e55ea0853",
     "url": "/toshiki-profile/index.html"
   }
 ];
