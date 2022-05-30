@@ -1,19 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "448c82494cf8d36b80a0",
-    "url": "/toshiki-profile/static/css/main.b95a231e.chunk.css"
+    "revision": "b79776dfe0d6315906d1",
+    "url": "/toshiki-profile/static/css/main.e8ecc523.chunk.css"
   },
   {
-    "revision": "448c82494cf8d36b80a0",
-    "url": "/toshiki-profile/static/js/main.d4b95de4.chunk.js"
+    "revision": "b79776dfe0d6315906d1",
+    "url": "/toshiki-profile/static/js/main.1d0346f4.chunk.js"
   },
   {
     "revision": "028e852ca5dc8eb94aa3",
     "url": "/toshiki-profile/static/js/runtime~main.c15d78b8.js"
   },
   {
-    "revision": "7faabb76cc54be40f765",
-    "url": "/toshiki-profile/static/js/2.b8e91ce1.chunk.js"
+    "revision": "76c4f7268b16cabcb524",
+    "url": "/toshiki-profile/static/js/2.00f72bb4.chunk.js"
+  },
+  {
+    "revision": "545211f9b69b15c7ae00961d479dcfa4",
+    "url": "/toshiki-profile/static/media/toshi_icon.545211f9.png"
   },
   {
     "revision": "9ccbb90a74279128d478198b352bc179",
@@ -40,7 +44,7 @@ self.__precacheManifest = [
     "url": "/toshiki-profile/static/media/toshi.7f746241.png"
   },
   {
-    "revision": "69332c4a40f0a708e5b1610d6f0b2be5",
+    "revision": "9522d033a1a2658489425c92ca726866",
     "url": "/toshiki-profile/index.html"
   }
 ];
