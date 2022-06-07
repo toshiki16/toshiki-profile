@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "54e6758ced36aa8611b8",
-    "url": "/toshiki-profile/static/css/main.483b7d55.chunk.css"
+    "revision": "d494a33a300880988c7a",
+    "url": "/toshiki-profile/static/css/main.2b0c6497.chunk.css"
   },
   {
-    "revision": "54e6758ced36aa8611b8",
+    "revision": "d494a33a300880988c7a",
     "url": "/toshiki-profile/static/js/main.da147d91.chunk.js"
   },
   {
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/toshiki-profile/static/media/toshi.7f746241.png"
   },
   {
-    "revision": "e45a059055b06972bd2cbe04b6b40397",
+    "revision": "7ec0caa7f02a0eb75b3a27ef906afe34",
     "url": "/toshiki-profile/index.html"
   }
 ];
